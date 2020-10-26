@@ -6,7 +6,7 @@ one_person = 21.42 # seconds for 1 person to be born
 migration_year = 208000
 one_migrant = 25.2 # amount of minutes when 1 person come to the country to stay
 migration_from_country_year = 441000
-one_magration_from_country = 1.2 # amount of minutes after which one person leave country
+one_migration_from_country = 1.2 # amount of minutes after which one person leave country
 year_death = 1800000
 time_of_one_person_death = 20 # seconds after which 1 person dies
 time = int(input(''))
@@ -15,6 +15,6 @@ print('after ', one_person, ' seconds 1 person is born in Russia')
 print('after ', one_migrant, ' minutes 1 person comes to country to stay here')
 print('after ', one_magration_from_country, ' minutes 1 person leaves Russia to live in another country')
 print('after ', time_of_one_person_death, ' seconds 1 person dies in Russia')
-print('approximate population of Russia ater ', time, ' years ', answer, ' people')
+print('approximate population of Russia after ', time, ' years ', answer, ' people')
 print('all the stats were taken from year 2019 and connected with the coronavirus situation and bad economic situation in Russia, so need to be recounted in future')
 
